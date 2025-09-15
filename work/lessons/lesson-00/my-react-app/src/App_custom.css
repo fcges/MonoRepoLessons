@@ -1,0 +1,25 @@
+.homepage_item {
+    margin: 5px;
+}
+
+.custom_input {
+    padding: 8px;
+    border: 3px solid #9c1ec6;
+    box-shadow: 0 0 8px rgba(251, 97, 241, 0.5);
+    border-radius: 4px;
+}
+
+.custom_input:focus {
+    border-color: #e4fb61;
+    outline: none;
+    box-shadow: 0 0 8px rgba(251, 241, 97, 0.5);
+}
+
+.btn_danger {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
