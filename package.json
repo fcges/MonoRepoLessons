@@ -11,9 +11,16 @@
     "coverage-calculator": "cd source/lessons/lesson-02 && npm run test:coverage",
     "coverage-todo": "cd source/lessons/lesson-02 && npm run test:todo:coverage"
   },
-  "keywords": ["lessons", "calculator", "todo", "typescript", "blessed"],
+  "keywords": [
+    "lessons",
+    "calculator",
+    "todo",
+    "typescript",
+    "blessed"
+  ],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
